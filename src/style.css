@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+input[placeholder], #dropdown, #textarea {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  color: #808080;
+}
+.header {
+  color: #525174;
+}
+#title {
+  margin-top: 50px;
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#survey-form {
+  background: #525174;
+  color: #bce784;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 30px;
+  max-width: 100%;
+}
+input,
+select,
+option,
+textarea {
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+input[type="checkbox"], input[type="radio"] {
+  width: 35px;
+}
+label.checkbox, label.radio {
+  font-size: 15px;
+  display: inline-block;
+  line-height: 3;
+}
+#textarea {
+  resize: vertical;
+}
+#submit {
+  display: block;
+  margin: 0 auto;
+}
+button#submit {
+  background: #bce784;
+  color: #525174;
+  padding: 15px 50px;
+  border: none;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+button:hover {
+    animation-name: background-color;
+    animation-duration: 1s;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #C3C3D5;
+    }
+  }
+
+#footer p{
+	padding: 10px 0;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #696969;
+}
+a:hover {
+  color: #513B56
+}

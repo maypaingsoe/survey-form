@@ -1,0 +1,66 @@
+<html>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <header class="header">
+    <h1 id="title">User Experience Feedback</h1>
+    <p id="description">This survey intends to improve user experience and appreciate for your feedback.</p>
+  
+  <body>
+    <form id="survey-form">
+     
+    <div class="name"> 
+    <label for="name" id="name-label">Name</label>
+    <input type="text" placeholder="Enter your name" name="name" id="name" required>
+    </div>
+      
+    <div class="email"> 
+    <label for="email" id="email-label">Email</label>
+    <input type="email" placeholder="Enter your email" name="email" id="email" required>
+    </div>
+      
+    <div class="age"> 
+    <label for="age" id="number-label" >Age</label>
+    <input type="number" name="age" min="15"
+        max="99" placeholder="Your Age" id="number" required>
+    </div>
+      
+    <div class="role"> 
+      <p>Type of Visitors</p>
+     <select id="dropdown" name="role" required>
+       <option vlaue="instructor">Instructor</option>
+       <option value="learner">Freecodecamper</option>
+       <option value="recruiter">Recruiter</option>
+       <option value="other">Other</option>
+      </select>
+      </div>
+      
+    <div class="radio">
+      <p>How do you think of this website experience?</p>
+      <label class="radio"><input type="radio" name="experience" value="very satisfied" checked/>Very Satisfied</label>
+      
+      <label class="radio"><input type="radio" name="experience" value="Somewhat Satisfied" checked/>Somewhat Satisfied</label>
+      
+      <label class="radio"><input type="radio" name="experience" value="not satisfied" checked/>Not Satisfied</label>
+      </div>
+      
+     <div class="checkbox">
+      <p>What features should I improve for better experience?</p>
+      <label class="checkbox"><input type="checkbox" name="improvement" value="design"/>Visual Design</label>
+      
+      <label class="checkbox"><input type="checkbox" name="improvement" value="content"/>Clarity of the Content</label>
+      
+      <label class="checkbox"><input type="checkbox" name="improvement" value="viewport"/>Responsive Experience</label>
+      </div>
+      
+      <div class="textarea">
+        <p>Any thoughts or further more suggestions</p>
+        <textarea id="textarea" name="comment" placeholder="Any Comment..." cols="30" rows="4"></textarea>
+      </div>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+  <footer id="footer">
+    <p>© 2020<a href="https://codepen.io/maddy55" target="blank"> maddy</a></p>
+  </footer>
+
+</html>
